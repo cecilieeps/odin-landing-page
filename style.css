@@ -40,7 +40,7 @@ li {
 
 .header-logo {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     font-size: 30px;
     font-weight: bold;
     align-items: center;
@@ -106,17 +106,17 @@ li {
 
 .images-with-text {
     flex: 1;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /* applies to children */
     display: flex;
-    gap: 40px;
+    gap: 70px;
 
 }
-.image-with-text {
-    width: 200px;
+.image-with-text,
+.image-with-text img {
+    width: 280px;
 }
 
-.image-with-text img{
-    width: 200px;
+img {
     border-radius: 10px;
 }
 
@@ -195,6 +195,10 @@ button {
 
 button:hover {
     background: whitesmoke;
+}
+
+.header-links a:hover {
+    color: whitesmoke;
 }
 
 
