@@ -6,14 +6,14 @@ body {
     font-family: Georgia, serif;
 }
 
-.top-container {
+.welcome-container {
     display: flex;
     flex-direction: column;
     background: rgb(114, 105, 105);
     padding: 0 190px;
 }
 
-.header {
+header {
     height: 80px;
     display: flex;
     justify-content: space-between;
@@ -53,21 +53,21 @@ li {
     flex: 0;
 }
 
-.intro {
+.info-container {
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
     color: whitesmoke;
 }
 
-.intro-text {
+.welcome-text {
     display: flex;
     flex-direction: column;
     gap: 30px;
     max-width: 800px;
 }
 
-.main-text {
+h1 {
     font-size: 48px;
     font-weight: bolder;
 }
@@ -76,23 +76,23 @@ li {
     font-size: 18px;
 }
 
-.sammie {
-    width: 400px;
+.welcome-photo {
+    width: 450px;
     height: auto;
     border-radius: 20px;
-    align-self: center;
+    align-self: flex-start;
     flex: 0 1 auto;
     margin-left: 30px;
 }
 
-.information-header {
-    font-size: 36px;
+h2 {
+    font-size: 40px;
     font-weight: bold;
-    padding: 30px 0;
+    padding: 20px 0;
     color: rgb(43, 40, 40);
 }
 
-.images-container {
+.staff-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -105,10 +105,10 @@ li {
 }
 
 .images-with-text {
-    flex: 1;
     flex-wrap: wrap; /* applies to children */
     display: flex;
     gap: 70px;
+    padding: 70px;
 
 }
 .image-with-text,
@@ -125,19 +125,18 @@ img {
     display: flex;
     flex-direction: column;
     padding: 80px 280px;
+    color: whitesmoke;
 }
 
 .quote-text {
-    color: whitesmoke;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: lighter;
     font-style: italic;
 }
 
 .quote-author {
-    display: block;
-    text-align: end;
-    font-size: 20px;
+    align-self: flex-end;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -153,22 +152,22 @@ img {
     height: auto;
 }
 
-.sign-up-container {
-    padding: 90px 190px;
+.signup-container {
+    display: flex;
+    padding: 50px 190px 90px;
     background: rgb(192, 186, 186);
+    justify-content: space-between;
 }
 
-.textbox {
+.signup-text {
     background: rgb(230, 190, 197);
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
     padding: 30px 100px;
-    align-items: center;
     min-width: min-content;
+    align-self: center;
 }
 
-.footer {
+footer {
     height: 50px;
     background: rgb(114, 105, 105);
     color: whitesmoke;
@@ -200,6 +199,7 @@ button:hover {
 .header-links a:hover {
     color: whitesmoke;
 }
+
 
 
 
