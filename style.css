@@ -3,6 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .top-container {
@@ -13,7 +14,7 @@ body {
 }
 
 .header {
-    height: 50px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +39,18 @@ li {
 }
 
 .header-logo {
-    font-size: 24px;
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
     font-weight: bold;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-logo img{
+    width: 60px;
+    height: auto;
+    flex: 0;
 }
 
 .intro {
@@ -157,10 +168,6 @@ li {
     min-width: min-content;
 }
 
-.textbox .signup-text {
-    max-width: 550px;
-}
-
 .footer {
     height: 50px;
     background: rgb(114, 105, 105);
@@ -179,6 +186,7 @@ button {
     font-weight: bold;
     align-self: center;
     min-width: max-content;
+    margin: 0 50px;
 }
 
 .intro-text button {
