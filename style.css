@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, serif;
 }
 
 .top-container {
